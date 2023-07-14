@@ -658,8 +658,8 @@ def cv(
     eval_hist : dict
         Evaluation history.
         The dictionary has the following format:
-        {'metric1-mean': [values], 'metric1-stdv': [values],
-        'metric2-mean': [values], 'metric2-stdv': [values],
+        {'valid metric1-mean': [values], 'valid metric1-stdv': [values],
+        'valid metric2-mean': [values], 'valid metric2-stdv': [values],
         ...}.
         If ``return_cvbooster=True``, also returns trained boosters wrapped in a ``CVBooster`` object via ``cvbooster`` key.
     """
